@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>
+
+        Smart Grid Commander
+
+    </title>
+
+    <link rel="stylesheet"
+    href="style.css">
+
+</head>
+
+<body>
+
+
+
+    <!-- ========================= -->
+    <!-- BACKGROUND -->
+    <!-- ========================= -->
+
+    <div class="background"></div>
+
+
+
+    <!-- ========================= -->
+    <!-- TOPBAR -->
+    <!-- ========================= -->
+
+    <header class="topbar">
+
+        <div class="logo">
+
+            ⚡ Smart Grid Commander
+
+        </div>
+
+
+
+        <div class="top-stats">
+
+            <div class="top-card">
+
+                💰 Credits:
+                <span id="money">
+
+                    5000
+
+                </span>
+
+            </div>
+
+
+
+            <div class="top-card">
+
+                🏙 Population:
+                <span id="population">
+
+                    120K
+
+                </span>
+
+            </div>
+
+
+
+            <div class="top-card">
+
+                ⚡ Stability:
+                <span id="stability">
+
+                    95%
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ========================= -->
+    <!-- MAIN GRID -->
+    <!-- ========================= -->
+
+    <main class="main-grid">
+
+
+
+        <!-- ========================= -->
+        <!-- CITY VIEW -->
+        <!-- ========================= -->
+
+        <section class="city-panel">
+
+            <div class="city-sky"></div>
+
+
+
+            <div class="city">
+
+
+
+                <div class="building b1"></div>
+
+                <div class="building b2"></div>
+
+                <div class="building b3"></div>
+
+                <div class="building b4"></div>
+
+                <div class="building b5"></div>
+
+
+
+                <div class="power-line"></div>
+
+            </div>
+
+
+
+            <div class="road"></div>
+
+        </section>
+
+
+
+        <!-- ========================= -->
+        <!-- DASHBOARD -->
+        <!-- ========================= -->
+
+        <section class="dashboard">
+
+
+
+            <!-- ENERGY -->
+
+            <div class="panel">
+
+                <h2>
+
+                    ⚡ Energy
+
+                </h2>
+
+                <div class="stat">
+
+                    ☀ Solar:
+                    <span id="solar">
+
+                        0 MW
+
+                    </span>
+
+                </div>
+
+                <div class="stat">
+
+                    🌬 Wind:
+                    <span id="wind">
+
+                        0 MW
+
+                    </span>
+
+                </div>
+
+                <div class="stat">
+
+                    🔋 Battery:
+                    <span id="battery">
+
+                        100%
+
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- DEMAND -->
+
+            <div class="panel">
+
+                <h2>
+
+                    🏙 City Demand
+
+                </h2>
+
+                <div class="demand-box">
+
+                    <span id="demand">
+
+                        0 MW
+
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- WEATHER -->
+
+            <div class="panel">
+
+                <h2>
+
+                    🌦 Weather
+
+                </h2>
+
+                <div class="weather-box"
+                id="weather">
+
+                    Sunny
+
+                </div>
+
+            </div>
+
+
+
+            <!-- AI -->
+
+            <div class="panel">
+
+                <h2>
+
+                    🤖 AI Assistant
+
+                </h2>
+
+                <p id="aiMessage">
+
+                    Grid operating normally.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- CONTROLS -->
+
+            <div class="panel">
+
+                <h2>
+
+                    🎮 Controls
+
+                </h2>
+
+                <button id="solarBtn">
+
+                    Upgrade Solar
+
+                </button>
+
+                <button id="batteryBtn">
+
+                    Upgrade Battery
+
+                </button>
+
+                <button id="emergencyBtn">
+
+                    Emergency Boost
+
+                </button>
+
+            </div>
+
+
+
+            <!-- ALERTS -->
+
+            <div class="panel">
+
+                <h2>
+
+                    🚨 Alerts
+
+                </h2>
+
+                <div id="alerts">
+
+                    System initialized.
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
